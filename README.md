@@ -62,9 +62,6 @@ These plots reveal how academic performance and external conditions correlate wi
 ### 2️⃣ Regression Models
 A **multiple linear regression** model was used to predict GDP based on academic and economic factors.
 
-#### Baseline Model:
-- R² = 0.106 → weak relationship (baseline)
-
 #### Improved Model:
 - After feature engineering and log-transforming GDP:
   - R² = **0.416**
@@ -72,31 +69,8 @@ A **multiple linear regression** model was used to predict GDP based on academic
 
 ---
 
-## 🤖 Further Experiments
 
-Several other models were tested for performance comparison:
-
-| Model | Description | Expected Improvement |
-|--------|--------------|----------------------|
-| **Ridge Regression** | Linear model with L2 regularization | + stability |
-| **Lasso Regression** | Feature selection and noise reduction | + interpretability |
-| **Random Forest Regressor** | Nonlinear ensemble of decision trees | + accuracy |
-| **Gradient Boosting / XGBoost** | Sequentially optimized trees | + highest accuracy |
-| **Support Vector Regressor** | Kernel-based nonlinear regression | + flexible modeling |
-| **MLP Regressor (Neural Net)** | Shallow feedforward network | + pattern capture |
-
----
-
-## ⚙️ Results Summary
-
-| Model | R² Score | Notes |
-|--------|-----------|-------|
-| Linear Regression (baseline) | 0.106 | Weak linear fit |
-| Improved Linear Regression (log + features) | **0.416** | Stronger correlation, interpretable |
-| Random Forest (expected) | ~0.6–0.7 | Captures nonlinearities |
-| Gradient Boosting / XGBoost | ~0.7–0.8 | High accuracy, lower bias |
-
----
+|  Linear Regression (log + features) | **0.416** | Stronger correlation, interpretable |
 
 ## 🧩 Key Insights
 
