@@ -99,3 +99,9 @@ A **multiple linear regression** model was used to predict GDP based on academic
    ```python
    from google.colab import drive
    drive.mount('/content/drive')
+
+3. paste this into a cell (change the file path name if necessary) and run: 
+
+   ```python
+   data = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/data.csv', sep=';')
+
